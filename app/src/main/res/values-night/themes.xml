@@ -1,0 +1,43 @@
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.MyApplication.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="warningDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/warningDialogTitleStyle</item>
+        <item name="android:textViewStyle">@style/warningDialogTextViewStyle</item>
+        <item name="android:buttonStyle">@style/warningDialogButtonStyle</item>
+    </style>
+    <style name="warningDialogTitleStyle" parent="android:Widget.TextView">
+        <item name="android:background">@color/sand_light</item>
+        <item name="android:textColor">@color/water_green_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="warningDialogTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/water_green_dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="warningDialogButtonStyle" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/water_green_dark</item>
+        <item name="android:textColor">@color/sand_light</item>
+    </style>
+</resources>

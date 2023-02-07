@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/driverActivityLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cotraveler.androidapp.activities.DriverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/driverMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:background="@color/sand_light">
+
+        <TextView
+            android:id="@+id/offerListViewHeaderId"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/water_green_dark"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+
+        <ListView
+            android:id="@+id/offerListViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/water_green_dark"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/sand_dark"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/offerListViewHeaderId"
+            android:layout_above="@+id/resetOfferListButtonId" />
+
+        <Button
+            android:id="@+id/resetOfferListButtonId"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/sand_medium"
+            android:text="@string/offerListResetButton"
+            android:textColor="@color/sky"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout >
+
+</LinearLayout>

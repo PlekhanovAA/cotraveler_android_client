@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<resources>
+    <string name="app_name">CoTraveler</string>
+    <!-- Main-->
+    <string name="logoDescription">Логотип</string>
+    <string name="mainDriverButton">Я водитель</string>
+    <string name="mainPassengerButton">Я пассажир</string>
+    <string name="mainVersionNameText">версия: %1$s</string>
+    <!-- Driver-->
+    <string name="suggestForOfferListWhenNoOrders">Для этой точки сейчас нет предложений</string>
+    <string name="headerOfferListBeforeSelectLabelText">Выберите точку на карте</string>
+    <string name="headerOfferListAfterSelectLabelText">Список предложений для выбранной точки</string>
+    <string name="offerListResetButton">Сбросить фильтры</string>
+    <!--Passenger-->
+    <!--Create offer fragment-->
+    <string name="fromRadioText">ОТКУДА</string>
+    <string name="fromRadioSuggest">Выберите на карте начальную точку</string>
+    <string name="toRadioText">КУДА</string>
+    <string name="toRadioSuggest">Выберите на карте конечную точку</string>
+    <string name="hintForCommentEditText">Небольшой необязательный комментарий не более 180 знаков</string>
+    <string name="submitButton">ГОТОВО!</string>
+    <string name="addCommentButton">Добавить комментарий</string>
+    <!--Comment offer fragment-->
+    <string name="backCommentButton">Назад</string>
+    <string name="addCommentToOfferButton">Применить комментарий</string>
+    <!--Offer-->
+    <string name="offerInfo">Информация по текущему предложению</string>
+    <string name="fromOfferInfoText">Откуда: </string>
+    <string name="toOfferInfoText">Куда: </string>
+    <string name="offerDoneButton">Завершить поездку</string>
+    <string name="lifetimeCountDownTimer">Предложение действительно еще: </string>
+    <string name="commentText">Комментарий: </string>
+    <!--Dialogs-->
+    <string name="warningDialogTitle">ВНИМАНИЕ!</string>
+    <string name="errorDialogTitle">ОШИБКА!</string>
+    <string name="warningPossibilityPassengerText">Вы не можете создать заказ прямо сейчас. Количество заказов ограничено 4 за последний час. Попробуйте еще раз позже.</string>
+    <string name="warningDialogOkButton">ПОНЯТНО</string>
+    <string name="warningAvailabilityLabelText">Сейчас невозможно создать заказ для выбранной начальной точки путешествия. Попробуйте еще раз позже.</string>
+    <string name="warningIncompleteOfferLabelText">Пожалуйста, выберите начальную и конечную точки путешествия на карте и убедитесь, что они не совпадают.</string>
+    <string name="warningForOfferListWhenNoOrdersText">В настоящее время нет предложений для выбранной точки. Попробуйте еще раз позже.</string>
+    <string name="warningUpdateIsAvailableText">Доступна новая версия приложения</string>
+</resources>

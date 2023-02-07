@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/bg_image"
+    android:tileMode="repeat"
+    android:dither="true" />

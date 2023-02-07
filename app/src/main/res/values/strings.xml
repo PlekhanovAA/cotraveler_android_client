@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<resources>
+    <string name="app_name">CoTraveler</string>
+    <!-- Main-->
+    <string name="logoDescription">logo</string>
+    <string name="mainDriverButton">I\'m the driver</string>
+    <string name="mainPassengerButton">I\'m a passenger</string>
+    <string name="mainVersionNameText">ver.: %1$s</string>
+    <!-- Driver-->
+    <string name="suggestForOfferListWhenNoOrders">There are no orders for this point</string>
+    <string name="headerOfferListBeforeSelectLabelText">Select a label on the map</string>
+    <string name="headerOfferListAfterSelectLabelText">List of offers for the selected label</string>
+    <string name="offerListResetButton">RESET FILTERS</string>
+    <!--Passenger-->
+    <!--Create offer fragment-->
+    <string name="fromRadioText">FROM</string>
+    <string name="fromRadioSuggest">Select the starting point on the map</string>
+    <string name="toRadioText">TO</string>
+    <string name="toRadioSuggest">Select the end point on the map</string>
+    <string name="hintForCommentEditText">A small optional comment no more than 180 characters</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="addCommentButton">ADD COMMENT</string>
+    <!--Comment offer fragment-->
+    <string name="backCommentButton">BACK</string>
+    <string name="addCommentToOfferButton">APPLY COMMENT</string>
+    <!--Offer-->
+    <string name="offerInfo">CURRENT OFFER INFO</string>
+    <string name="fromOfferInfoText">FROM: </string>
+    <string name="toOfferInfoText">TO: </string>
+    <string name="offerDoneButton">OFFER DONE</string>
+    <string name="lifetimeCountDownTimer">OFFER LIFETIME: </string>
+    <string name="commentText">COMMENT: </string>
+    <!--Dialogs-->
+    <string name="warningDialogTitle">ATTENTION!</string>
+    <string name="errorDialogTitle">ERROR!</string>
+    <string name="warningPossibilityPassengerText">You can\'t create an order right now. The number of orders is limited to 4 in the last hour. Try again later.</string>
+    <string name="warningDialogOkButton">OK</string>
+    <string name="warningAvailabilityLabelText">Sorry! Now it is not possible to create an order for the selected starting point of the travel. Try again later.</string>
+    <string name="warningIncompleteOfferLabelText">Please select the start and end points of the travel on the map and make sure they don\'t match.</string>
+    <string name="warningForOfferListWhenNoOrdersText">There are currently no offers for the selected label. Try again later.</string>
+    <string name="warningUpdateIsAvailableText">An update is available.</string>
+</resources>

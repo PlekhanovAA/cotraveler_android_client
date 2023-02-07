@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/mainActivityLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_repeat"
+    android:orientation="vertical"
+    tools:context="com.cotraveler.androidapp.activities.MainActivity">
+
+    <Spinner
+        android:id="@+id/languageSpinnerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="20dp"
+        android:background="@color/sand_light"
+        android:popupBackground="@color/sand_light" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="135dp"
+        android:contentDescription="@string/logoDescription"
+        app:srcCompat="@drawable/product_logo" />
+
+    <Button
+        android:id="@+id/buttonDriverId"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/water_green_dark"
+        android:text="@string/mainDriverButton"
+        android:textColor="@color/sand_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPassengerId" />
+
+    <Button
+        android:id="@+id/buttonPassengerId"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="105dp"
+        android:backgroundTint="@color/water_green_dark"
+        android:text="@string/mainPassengerButton"
+        android:textColor="@color/sand_light"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/versionNameTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/water_green_dark"
+        android:textSize="16sp" />
+
+</FrameLayout>

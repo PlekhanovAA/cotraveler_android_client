@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="@color/sand_medium" />
+    <stroke android:width="1dip" android:color="@color/water_green_dark"/>
+</shape>

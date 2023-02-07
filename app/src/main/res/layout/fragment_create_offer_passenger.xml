@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/createOfferFragmentLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_repeat">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/fromRadioButtonId"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/water_green_dark"
+            android:checked="true"
+            android:text="@string/fromRadioText"
+            android:textColor="@color/water_green_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fromTextInRadioGroupId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/fromRadioSuggest"
+            android:textSize="16sp"
+            android:textColor="@color/water_green_dark"
+            android:gravity="start"/>
+
+        <RadioButton
+            android:id="@+id/toRadioButtonId"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/water_green_dark"
+            android:checked="false"
+            android:text="@string/toRadioText"
+            android:textColor="@color/water_green_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toTextInRadioGroupId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/toRadioSuggest"
+            android:textSize="16sp"
+            android:textColor="@color/water_green_dark"
+            android:gravity="start"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addCommentToOfferButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:includeFontPadding="false"
+        android:text="@string/addCommentButton"
+        android:textColor="@color/sand_dark"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submitButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/water_green_dark"
+        android:text="@string/submitButton"
+        android:textColor="@color/sand_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

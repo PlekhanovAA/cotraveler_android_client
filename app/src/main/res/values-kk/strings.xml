@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  Aleksey Plekhanov 03.02.2023, 3:14
+  -->
+
+<resources>
+    <string name="app_name">CoTraveler</string>
+    <!-- Main-->
+    <string name="logoDescription">Логотип</string>
+    <string name="mainDriverButton">Мен жүргізушімін</string>
+    <string name="mainPassengerButton">Мен жолаушымын</string>
+    <string name="mainVersionNameText">нұсқа: %1$s</string>
+    <!-- Driver-->
+    <string name="suggestForOfferListWhenNoOrders">Бұл нүкте үшін қазір ұсыныстар жоқ</string>
+    <string name="headerOfferListBeforeSelectLabelText">Картадан нүктені таңдаңыз</string>
+    <string name="headerOfferListAfterSelectLabelText">Таңдалған нүктеге арналған ұсыныстар тізімі</string>
+    <string name="offerListResetButton">Сүзгілерді қалпына келтіріңіз</string>
+    <!--Passenger-->
+    <!--Create offer fragment-->
+    <string name="fromRadioText">Қайдан</string>
+    <string name="fromRadioSuggest">Картадан бастапқы нүктені таңдаңыз</string>
+    <string name="toRadioText">Қайда</string>
+    <string name="toRadioSuggest">Картадан соңғы нүктені таңдаңыз</string>
+    <string name="hintForCommentEditText">180 таңбадан аспайтын шағын қосымша түсініктеме</string>
+    <string name="submitButton">ГОТОВО!</string>
+    <string name="addCommentButton">Пікір қосу</string>
+    <!--Comment offer fragment-->
+    <string name="backCommentButton">Артқа</string>
+    <string name="addCommentToOfferButton">Қолдану пікір</string>
+    <!--Offer-->
+    <string name="offerInfo">Ағымдағы ұсыныс бойынша ақпарат</string>
+    <string name="fromOfferInfoText">Қайдан: </string>
+    <string name="toOfferInfoText">Қайда: </string>
+    <string name="offerDoneButton">Саяхатты аяқтаңыз</string>
+    <string name="lifetimeCountDownTimer">Ұсыныс әлі де бар: </string>
+    <string name="commentText">Пікір: </string>
+    <!--Dialogs-->
+    <string name="warningDialogTitle">Назар аударыңыз!</string>
+    <string name="errorDialogTitle">Қате!</string>
+    <string name="warningPossibilityPassengerText">Сіз дәл қазір тапсырыс жасай алмайсыз. Тапсырыстар саны соңғы сағатта 4-пен шектелген. Кейінірек қайталап көріңіз.</string>
+    <string name="warningDialogOkButton">Түсінікті</string>
+    <string name="warningAvailabilityLabelText">Енді таңдалған бастапқы саяхат нүктесіне тапсырыс жасау мүмкін емес. Кейінірек қайталап көріңіз.</string>
+    <string name="warningIncompleteOfferLabelText">Картадан сапардың басталу және аяқталу нүктелерін таңдап, олардың сәйкес келмейтініне көз жеткізіңіз.</string>
+    <string name="warningForOfferListWhenNoOrdersText">Қазіргі уақытта таңдалған нүктеге арналған ұсыныстар жоқ. Кейінірек қайталап көріңіз.</string>
+    <string name="warningUpdateIsAvailableText">Қолданбаның жаңа нұсқасы қол жетімді</string>
+</resources>
